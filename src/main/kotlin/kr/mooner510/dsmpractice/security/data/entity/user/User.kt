@@ -15,14 +15,14 @@ class User(
     val name: String,
 
     @Column(nullable = false)
-    val password: String
+    val _password: String
 ): UserDetails {
     override fun getAuthorities(): Collection<GrantedAuthority> {
         return emptyList()
     }
 
     override fun getPassword(): String {
-        return password
+        return _password
     }
 
     override fun getUsername(): String {
