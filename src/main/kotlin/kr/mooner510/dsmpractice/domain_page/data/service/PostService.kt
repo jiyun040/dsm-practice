@@ -1,5 +1,7 @@
 package kr.mooner510.dsmpractice.domain_page.data.service
 
+import kr.mooner510.dsmpractice.domain_page.data.dto.CreatePostRequest
+import kr.mooner510.dsmpractice.domain_page.data.dto.PostResponse
 import kr.mooner510.dsmpractice.domain_page.data.entity.Post
 import kr.mooner510.dsmpractice.domain_page.data.repository.PostRepository
 import kr.mooner510.dsmpractice.domain_page.data.repository.TagRepository

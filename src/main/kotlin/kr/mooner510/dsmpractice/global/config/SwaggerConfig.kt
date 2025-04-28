@@ -25,7 +25,7 @@ class SwaggerConfig {
     @Bean
     fun auth(): GroupedOpenApi {
         return GroupedOpenApi.builder()
-            .group("인증")
+            .group("게시글")
             .pathsToMatch("/api/auth/**")
             .build()
     }

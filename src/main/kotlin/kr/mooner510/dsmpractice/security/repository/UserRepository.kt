@@ -12,4 +12,6 @@ interface UserRepository : JpaRepository<User, Long> {
 
 
     fun findByName(name: String): Optional<User>
+
+    fun updateThumbnailById(thumbnailId: UUID, userId: Long)
 }
